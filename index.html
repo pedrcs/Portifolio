@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Guerra</title>
+    <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="styles.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> <!-- ICONs usados a pagina-->
+   <head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  </head>
+  
+</head>
+<body>
+    <nav class="navbar"> <!-- Barra superior, barra de navegação-->
+        <div class="nav-content">
+            <h1 class="logo">Pedro Guerra</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Menu"> <!--Botões que permite navegar na pagina -->
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+        </div>
+    </nav>
+    
+
+    <header class="hero"> <!-- Onde coloco meio que a parte inicial -->
+        <div class="stars-container"> <!-- Animação das estrelas caindo -->
+          <div id="stars"></div>
+        </div>
+        <div id="home" class="content"> <!-- Conteudo dessa parte inicial -->
+          <div class="name-container fade-in">
+            <h1 class="name">Pedro Guerra</h1>
+            <p class="profession">Desenvolvedor Front-end</p>
+          </div>
+         </div>
+      </header>
+      <script src="stars.js" defer></script> <!-- Onde esta a animação das estrelas -->
+
+      <section id="about" class="section"> <!-- Titulo que inicia a parte de sobre mim -->
+        <div class="container">
+          <div class="about-card">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+              <div class="about-image">
+                <img src="a45fad04-cb1d-4791-9f9b-bf7013063059.jpeg" alt="Foto de Pedro" class="profile-image">
+              </div>
+             <div class="about-text">
+              <p>Olá! Eu sou o Pedro. Sou um desenvolvedor iniciante de 24 anos, atualmente cursando Análise e Desenvolvimento de Sistemas. Minha jornada na programação começou com HTML, CSS e JavaScript, e desde então venho explorando diversas áreas do desenvolvimento web e outras ferramentas que ampliam minhas possibilidades de criação.</p>
+              <p>Apaixonado por tecnologia e inovação, estou em constante aprendizado e sempre buscando me atualizar com as últimas tendências. Meu objetivo é não apenas escrever código eficiente, mas também criar soluções que proporcionem uma experiência agradável para os usuários e que atendam às necessidades do mercado.</p>
+              <div class="social-links"> <!-- Onde vai puxar os icons do link la de cima -->
+                <a href="https://github.com/pedrcs" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/pedro-guerra-b595b3287/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:taving04@gmail.com" class="social-link" aria-label="E-mail">
+                    <i class="fas fa-envelope"></i>
+                </a>
+           </div>         
+          </div>
+        </section>
+           
+          
+        <section id="skills" class="section section-alt"> <!-- Onde começa a parte de habilidades -->
+          <div class="container">
+              <h2 class="section-title">Habilidades</h2>
+              <div class="skills-grid">
+                  <div class="skill-card">
+                      <div class="skill-icon">
+                          <i class="fab fa-html5"></i> <!-- Ícone do HTML5 -->
+                      </div>
+                      <h3>HTML5</h3>
+                      <div class="skill-bar"> <!-- Barra de progesso que mostra la -->
+                          <div class="skill-progress" data-progress="85"></div>
+                      </div>
+                  </div>
+                  <div class="skill-card">
+                      <div class="skill-icon">
+                          <i class="fab fa-css3-alt"></i> <!-- Ícone do CSS3 -->
+                      </div>
+                      <h3>CSS3</h3>
+                      <div class="skill-bar">
+                          <div class="skill-progress" data-progress="50"></div>
+                      </div>
+                  </div> 
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i> <!-- Ícone do JavaScript -->
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="50"></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+        
+
+        <section id="projects" class="section"> <!-- Onde começa o projeto -->
+          <div class="container">
+              <h2 class="section-title">Projetos</h2>
+              <div class="projects-grid">
+                  <div class="project-card">
+                   <h3>Portifolio</h3>
+                      <p>Esta pagina é meu primeiro projeto Front-end.</p>
+                      <div class="project-tags">
+                          <span>HTML</span>
+                          <span>CSS</span>
+                          <span>JavaScript</span>
+                      </div>
+                      <div class="project-links"> <!-- Direcionar para o github-->
+                          <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                      </div>
+                  </div>
+             </div>
+      </section>
+  
+
+
+          <script src="main.js"></script>      
+</body>
+</html>
