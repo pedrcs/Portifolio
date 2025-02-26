@@ -113,20 +113,45 @@
               <div class="projects-grid">
                   <div class="project-card">
                    <h3>Portifolio</h3>
-                      <p>Esta pagina é meu primeiro projeto Front-end.</p>
+                      <p>Esta pagina é meu primeiro projeto.</p>
                       <div class="project-tags">
                           <span>HTML</span>
                           <span>CSS</span>
                           <span>JavaScript</span>
                       </div>
                       <div class="project-links"> <!-- Direcionar para o github-->
-                          <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                          <a href="https://github.com/pedrcs/Portifolio" target="_blank" rel="noopener noreferrer">GitHub</a>
                       </div>
                   </div>
              </div>
       </section>
   
+      <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
 
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Pedro Guerra.</p>
+        </div>
+    </footer>
 
           <script src="main.js"></script>      
 </body>

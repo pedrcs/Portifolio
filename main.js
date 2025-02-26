@@ -73,7 +73,6 @@ function setupContactForm() {
     if (form) {
         form.addEventListener('submit', function(e) {
             e.preventDefault();
-            // Aqui você pode adicionar a lógica para enviar o formulário
             alert('Mensagem enviada com sucesso!');
             form.reset();
         });
